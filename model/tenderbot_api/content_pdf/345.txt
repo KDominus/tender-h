@@ -1,0 +1,35 @@
+Инструкция по формированию YML
+
+8 
+ 
+ 
+  указывается с помощью 
+атрибута p arentId . 
+offers  Список оферт  поставщика.  
+Если в оферте указана 
+категория справочника 
+Портала ppCategory , то 
+категории указанные в 
+categories  игнорируются.  
+ 
+1.4 Элементы, входящие в  shop  
+1.4.1 Состав элемента  
+<shop> 
+ <name>BestSeller </name> 
+ <company>Tne Best inc. </company> 
+ <url>http://best.seller.ru </url> 
+ <currencies > 
+   <currency  id="RUR" rate="1"/> 
+</currencies > 
+ <categories > 
+   <category  id="1">Бытовая техника</category > 
+   <category  id="10" parentId ="1">Мелкая техника для кухни</category > 
+   <category  id="101" parentId ="10">Сэндвичницы  и приборы для выпечки</catego
+ry> 
+   <category  id="102" parentId ="10">Мороженицы </category > 
+ </categories > 
+ <offers> 
+    ...      
+ </offers> 
+   ... 
+</shop> 

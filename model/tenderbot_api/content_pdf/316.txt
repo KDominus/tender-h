@@ -1,0 +1,35 @@
+Инструкция по формированию YML
+
+14 
+ 
+ 
+    <ppCategory >1</ppCategory > 
+  <categoryId >102</categoryId > 
+  <okei id="113">Упаковка</okei>  
+  <min-quantity>1</min -quantity>  
+  <max-quantity>100</max -quantity>  
+  <beginDate>2018 -07-19T23:02:35</beginDate>  
+  <endDate>2018 -09-19T19:02:35</endDate>  
+  <packageType  id="4" />  
+  <region id="504">Москва</region>  
+  <param name="Размер экрана" unit="дюйм">2</param> 
+  <param name="Цвет">белый</param> 
+        <price>6700</price> 
+  <delivery -options> 
+    <option days="1" cost="1000"></option>  
+  </delivery -options> 
+</offer> 
+1.4.5.1  Список и описание элементов  
+ 
+Таблица 4  - Список и описание элементов  
+Содержание элемента  Описание элемента  Тип 
+id Идентификатор предложения. 
+Может состоять только из  цифр 
+и латинских букв. Максимальная 
+длина  — 20 символов. Должен 
+быть уникальным для каждого 
+предложения.  
+Является атрибутом для  offer.  О 
+available  Статус товара:  
+true — «в наличии» / «готов 
+к отправке»  Н 
